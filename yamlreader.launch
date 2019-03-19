@@ -1,0 +1,6 @@
+<launch>
+
+<!-- Turtlesim Node-->
+ <node pkg="turtlesim" type="turtlesim_node" name="tartoula"/>
+<rosparam command="load" file="$(find common_msgs)/config/patrol.yaml" />
+</launch>
